@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  background-color: rgb(238, 221, 204);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Old Standard TT;
+  overflow-x: hidden;
+  line-height: 1;
+}
+
+.greenvivelogo {
+  margin-left: 7.5em;
+  margin-top: 1em;
+  width: 140px;
+  height: auto;
+}
+
+.lijn {
+  display: flex;
+  justify-content: center;
+  margin-top: -1.5em;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.quotetekst {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 11em;
+  font-family: Old Standard TT;
+  line-height: 1;
+  flex-direction: column;
+}
+
+.fotogroen {
+  display: flex;
+  width: 150px;
+  height: auto;
+  margin-left: 13em;
+  margin-top: -5em;
+}
+
+.fotogroen2 {
+  display: flex;
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.overons {
+  display: flex;
+  margin-left: 25px;
+  font-size: 16px;
+  margin-top: -16em;
+  margin-right: 25px;
+  margin-left: 12em;
+}
+
+.introductietekst {
+  display: flex;
+  margin-left: 25px;
+  font-size: 16px;
+  margin-top: -8em;
+  margin-right: 11.5em;
+}
+
+.buttoninitatieven a {
+  display: flex;
+  justify-content: center;
+  padding: 15px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #52694d;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px #000000;
+  margin-left: 25px;
+  margin-right: 14em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.terugbutton a {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #52694d;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px #000000;
+  margin-left: 25px;
+  margin-top: 1em;
+}
+
+.footercontact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: rgb(238, 221, 204);
+  background-color: #52694d;
+  font-size: 10px;
+}
+
+.introductieinitiatieven {
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.artikelbeschrijving {
+  display: flex;
+  flex-direction: column;
+  border: #52694d;
+  margin-left: 25px;
+  color: #ffffff;
+  padding-left: 1em;
+  padding-right: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-family: Bodoni Moda;
+  line-height: 1.3;
+  margin-bottom: 2em;
+  margin-right: 25px;
+  border-radius: 5px;
+  box-shadow: 5px 5px #000000;
+}
+
+#beschrijving1 {
+  background: url(images/appartement.jpg) no-repeat;
+  background-size: cover;
+}
+
+#beschrijving2 {
+  background: url(images/franshalshuis.jpg) no-repeat;
+  background-size: cover;
+}
+
+#beschrijving3 {
+  background: url(images/vergroeidhuis.jpg) no-repeat;
+  background-size: cover;
+}
+
+details {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  margin-right: 10em;
+  margin-top: 1em;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+  margin-right: 0em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 0.5em;
+}
+
+.introductiemeedoen {
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.fotomeedoen1 {
+  display: flex;
+  width: 100px;
+  height: auto;
+  margin-left: 15em;
+  margin-top: -10.5em;
+}
+
+.fotomeedoen2 {
+  display: flex;
+  width: 130px;
+  height: auto;
+  margin-top: 2em;
+  margin-left: 25px;
+}
+
+.stap1titel {
+  display: flex;
+  margin-left: 25px;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-right: 11.5em;
+  font-weight: bold;
+}
+
+.stap1inhoud {
+  display: flex;
+  margin-left: 25px;
+  font-size: 16px;
+  margin-right: 8em;
+  padding-right: 1em;
+}
+
+.stap2titel {
+  display: flex;
+  margin-left: 10em;
+  margin-right: 2em;
+  margin-top: -10.5em;
+  font-weight: bold;
+}
+
+.stap2inhoud {
+  display: flex;
+  margin-left: 10em;
+  margin-right: 2.1em;
+  margin-bottom: 2em;
+}
+
+.stap3titel {
+  display: flex;
+  margin-left: 25px;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-right: 11.5em;
+  font-weight: bold;
+}
+
+.stap3inhoud {
+  display: flex;
+  margin-left: 25px;
+  margin-right: 1.8em;
+}
